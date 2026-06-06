@@ -55,3 +55,6 @@ coverage/
 .next/
 .nuxt/
 .svelte-kit/
+
+# temp
+.temp
