@@ -1,0 +1,6 @@
+# Exclude domains from generated proxy rules.
+# Matching semantics: a listed domain excludes the exact host and all subdomains.
+# Inline comments can record the reason an observed host is intentionally excluded.
+# Keep entries lowercase and sorted by domain for deterministic rule generation.
+app-analytics-services.com # third-party analytics service observed in app captures
+myqcloud.com # third-party CDN/license service observed in app captures

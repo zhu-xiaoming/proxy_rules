@@ -1,0 +1,12 @@
+# NAME: Futu
+# AUTHOR: zhu-xiaoming
+# REPO: https://github.com/zhu-xiaoming/proxy_rules
+# UPDATED: 2026-06-02 04:12:39
+# SOURCE: collections/futu/2026-06-02-041239.md
+# EXCLUDE: config/exclude-domains.list
+# SUFFIX-DOMAIN: futuhn.com, futunn.com, futustatic.com
+# HOST-SUFFIX: 3
+# TOTAL: 3
+HOST-SUFFIX,futuhn.com,Futu
+HOST-SUFFIX,futunn.com,Futu
+HOST-SUFFIX,futustatic.com,Futu
