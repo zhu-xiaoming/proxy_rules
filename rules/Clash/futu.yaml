@@ -1,13 +1,24 @@
 # NAME: Futu
 # AUTHOR: zhu-xiaoming
 # REPO: https://github.com/zhu-xiaoming/proxy_rules
-# UPDATED: 2026-06-02 04:12:39
-# SOURCE: collections/futu/2026-06-02-041239.md
+# UPDATED: 2026-06-13 09:50:32
+# SOURCE: collections/futu/2026-06-02-041239.md, collections/futu/collections.list
 # EXCLUDE: config/exclude-domains.list
-# SUFFIX-DOMAIN: futuhn.com, futunn.com, futustatic.com
-# DOMAIN-SUFFIX: 3
-# TOTAL: 3
+# SUFFIX-DOMAIN: futu5.com, futuapi.com, futuesop.com, futufin.com, futuhk.com, futuhk1.com, futuhn.com, futuhongkong.com, futuin.com, futunn.com, futustatic.com, fututrade.com, moomoo.com, qtlcdn.com
+# DOMAIN-SUFFIX: 14
+# TOTAL: 14
 payload:
+  - DOMAIN-SUFFIX,futu5.com
+  - DOMAIN-SUFFIX,futuapi.com
+  - DOMAIN-SUFFIX,futuesop.com
+  - DOMAIN-SUFFIX,futufin.com
+  - DOMAIN-SUFFIX,futuhk.com
+  - DOMAIN-SUFFIX,futuhk1.com
   - DOMAIN-SUFFIX,futuhn.com
+  - DOMAIN-SUFFIX,futuhongkong.com
+  - DOMAIN-SUFFIX,futuin.com
   - DOMAIN-SUFFIX,futunn.com
   - DOMAIN-SUFFIX,futustatic.com
+  - DOMAIN-SUFFIX,fututrade.com
+  - DOMAIN-SUFFIX,moomoo.com
+  - DOMAIN-SUFFIX,qtlcdn.com
